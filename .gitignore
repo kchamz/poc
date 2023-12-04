@@ -1,0 +1,121 @@
+# From https://github.com/github/gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# keys
+*.pem
+metadata.xml
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+files/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+uwsgi.local.ini.
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+
+# Smoke tests
+tests/smoke/downloaded_files
+tests/smoke/smoke_test_engine_*.config
+
+#Terraform
+.terraform*
+
+# Terragrunt cache
+.terragrunt*
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log*
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# Jenkins artifact
+reports/
+
+# debian packaging files
+*.debhelper.log
+*.debhelper
+*.substvars
+debian/st
+debian/files
+debian/tmp
+
+# Remove vim swp files
+*.sw[op]
+
+# Project specific stuff
+
+/local_settings.py
+/local_test_settings.py
+
+# Jetbrains Stuff
+.idea
+
+# dotenv
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CI
+persist_env_vars.sh
+
+# Editor Stuff
+.nova/
+
+# Helm
+/helm-chart
+
+# Celery
+celerybeat-schedule.db
+celerybeat-schedule
+celerybeat.pid
